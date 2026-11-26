@@ -1,0 +1,54 @@
+
+=== Abstract_Gayatri.pdf | PAGE 1 ===
+ 
+Department of Computer Science and Engineering (CSE-2) 
+                  A.Y:2026-27 
+ 
+IV B.Tech- Odd Semester 
+Y23 Batch 
+Capstone Project – I Abstract Proforma 
+             Date:                                                                                                              
+ 
+Batch Number:C2R-20 
+ 
+Project Usecase No:AIML-59 
+Project Title: Document Structure 
+Analysis for Efficient and Reliable 
+Information Retrieval 
+Guide Name: 
+Ms. Bobba Sahithi 
+ Guide emp. Id:8820 
+Project Abstract: 
+ 
+Most real-world documents used in AI systems — research papers, reports, manuals — exist as PDFs. But
+extracting them accurately remains a major challenge. In documents with multiple columns, text is often 
+read out of order. Tables collapse into meaningless strings of text, losing their row-column structure. 
+Formulas are frequently dropped entirely, without any warning. These errors happen silently, at the very 
+first step of the pipeline, and quietly affect every AI-generated answer built on top of them. 
+This project builds a document-ingestion pipeline that fixes this problem. It recovers the correct reading 
+order from complex, multi-column PDFs, and extracts tables and formulas as separate structured elements 
+instead of flattening them into plain text — using simple, practical tools like PyMuPDF, pdfplumber, 
+Camelot, and Nougat. As a unique addition, the system also tracks the exact page each extracted element 
+came from and attaches a confidence score to it, so downstream systems know how much to trust each
+piece of information. 
+To prove the pipeline actually works — not just looks cleaner — its effectiveness is measured through real 
+downstream retrieval accuracy, using Sentence-Transformers and FAISS in a RAG-based retrieval system. 
+The complete pipeline is tested across diverse document types to ensure it performs reliably under real-
+world conditions, not just in ideal cases. 
+ 
+To be filled by the Guide: 
+Student IDs: 
+Attendance 
+Student’s Understanding Level on Project 
+(V. Good: 10-8M Good: 7-6M    Average: 5-4M  Poor: 3-0M) 
+2300032635 
+ 
+2300033305 
+ 
+2300031402 
+ 
+ 
+ 
+Guide Remarks:                                                                                  
+                                                                  Guide Signature:
+ 

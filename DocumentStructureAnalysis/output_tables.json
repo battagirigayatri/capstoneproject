@@ -1,0 +1,97 @@
+[
+  {
+    "source_page": 2,
+    "table_index_on_page": 0,
+    "rows": [
+      [
+        "Disease",
+        "Precision",
+        "Recall"
+      ],
+      [
+        "Leaf blight",
+        "0.97",
+        "0.95"
+      ],
+      [
+        "Rust",
+        "0.92",
+        "0.90"
+      ],
+      [
+        "Mildew",
+        "0.88",
+        "0.85"
+      ],
+      [
+        "Healthy",
+        "0.96",
+        "0.98"
+      ]
+    ],
+    "num_rows": 5,
+    "num_cols": 3,
+    "element_type": "table",
+    "confidence_score": 1.0
+  },
+  {
+    "source_page": 2,
+    "table_index_on_page": 1,
+    "rows": [
+      [
+        "Model",
+        "Accuracy",
+        "F1"
+      ],
+      [
+        "ResNet50",
+        "94.8",
+        "0.93"
+      ],
+      [
+        "VGG16",
+        "91.2",
+        "0.90"
+      ],
+      [
+        "MobileNet",
+        "89.6",
+        "0.88"
+      ]
+    ],
+    "num_rows": 4,
+    "num_cols": 3,
+    "element_type": "table",
+    "confidence_score": 1.0
+  },
+  {
+    "source_page": 2,
+    "table_index_on_page": 2,
+    "rows": [
+      [
+        "Model",
+        "Train time (min)",
+        "Memory (MB)"
+      ],
+      [
+        "ResNet50",
+        "62",
+        "98"
+      ],
+      [
+        "VGG16",
+        "95",
+        "528"
+      ],
+      [
+        "MobileNet",
+        "28",
+        "14"
+      ]
+    ],
+    "num_rows": 4,
+    "num_cols": 3,
+    "element_type": "table",
+    "confidence_score": 1.0
+  }
+]

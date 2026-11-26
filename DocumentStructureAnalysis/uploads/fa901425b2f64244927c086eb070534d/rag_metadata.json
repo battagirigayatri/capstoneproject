@@ -1,0 +1,68 @@
+[
+  {
+    "content": "Batch Number:C2R-20\nProject Usecase No:AIML-59 | Project Title: Document Structure\nAnalysis for Efficient and Reliable\nInformation Retrieval |  |  | Guide Name:\nMs. Bobba Sahithi\nGuide emp. Id:8820\nProject Abstract:\nMost real-world documents used in AI systems — research papers, reports, manuals — exist as PDFs. But\nextracting them accurately remains a major challenge. In documents with multiple columns, text is often\nread out of order. Tables collapse into meaningless strings of text, losing their row-column structure.\nFormulas are frequently dropped entirely, without any warning. These errors happen silently, at the very\nfirst step of the pipeline, and quietly affect every AI-generated answer built on top of them.\nThis project builds a document-ingestion pipeline that fixes this problem. It recovers the correct reading\norder from complex, multi-column PDFs, and extracts tables and formulas as separate structured elements\ninstead of flattening them into plain text — using simple, practical tools like PyMuPDF, pdfplumber,\nCamelot, and Nougat. As a unique addition, the system also tracks the exact page each extracted element\ncame from and attaches a confidence score to it, so downstream systems know how much to trust each\npiece of information.\nTo prove the pipeline actually works — not just looks cleaner — its effectiveness is measured through real\ndownstream retrieval accuracy, using Sentence-Transformers and FAISS in a RAG-based retrieval system.\nThe complete pipeline is tested across diverse document types to ensure it performs reliably under real-\nworld conditions, not just in ideal cases.\nTo be filled by the Guide: |  |  |  | \nStudent IDs: |  | Attendance | Student’s Understanding Level on Project\n(V. Good: 10-8M Good: 7-6M Average: 5-4M Poor: 3-0M) | \n2300032635 |  |  |  | \n2300033305 |  |  |  | \n2300031402 |  |  |  | \nGuide Remarks:\nGuide Signature: |  |  |  |",
+    "source_page": 1,
+    "element_type": "table",
+    "confidence_score": 0.31,
+    "doc": "Abstract_Gayatri.pdf",
+    "rows": [
+      [
+        "Batch Number:C2R-20\nProject Usecase No:AIML-59",
+        "Project Title: Document Structure\nAnalysis for Efficient and Reliable\nInformation Retrieval",
+        "",
+        "",
+        "Guide Name:\nMs. Bobba Sahithi\nGuide emp. Id:8820"
+      ],
+      [
+        "Project Abstract:\nMost real-world documents used in AI systems — research papers, reports, manuals — exist as PDFs. But\nextracting them accurately remains a major challenge. In documents with multiple columns, text is often\nread out of order. Tables collapse into meaningless strings of text, losing their row-column structure.\nFormulas are frequently dropped entirely, without any warning. These errors happen silently, at the very\nfirst step of the pipeline, and quietly affect every AI-generated answer built on top of them.\nThis project builds a document-ingestion pipeline that fixes this problem. It recovers the correct reading\norder from complex, multi-column PDFs, and extracts tables and formulas as separate structured elements\ninstead of flattening them into plain text — using simple, practical tools like PyMuPDF, pdfplumber,\nCamelot, and Nougat. As a unique addition, the system also tracks the exact page each extracted element\ncame from and attaches a confidence score to it, so downstream systems know how much to trust each\npiece of information.\nTo prove the pipeline actually works — not just looks cleaner — its effectiveness is measured through real\ndownstream retrieval accuracy, using Sentence-Transformers and FAISS in a RAG-based retrieval system.\nThe complete pipeline is tested across diverse document types to ensure it performs reliably under real-\nworld conditions, not just in ideal cases.\nTo be filled by the Guide:",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Student IDs:",
+        "",
+        "Attendance",
+        "Student’s Understanding Level on Project\n(V. Good: 10-8M Good: 7-6M Average: 5-4M Poor: 3-0M)",
+        ""
+      ],
+      [
+        "2300032635",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2300033305",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "2300031402",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Guide Remarks:\nGuide Signature:",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ]
+  },
+  {
+    "content": "Department of Computer Science and Engineering (CSE-2) A.Y:2026-27 IV B.Tech- Odd Semester Y23 Batch Capstone Project – I Abstract Proforma Date:",
+    "source_page": 1,
+    "element_type": "text",
+    "confidence_score": 0.98,
+    "doc": "Abstract_Gayatri.pdf",
+    "rows": null
+  }
+]

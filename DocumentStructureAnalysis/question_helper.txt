@@ -1,0 +1,31 @@
+
+######## sample.pdf (1-column) ########
+[page 1] TEXT: 6/16/26, 6:52 PM Gmail - TCS NOT for Priority Institutes Batch 2027118th June 2026 M Gmail Gayatri Battagiri <2300032635cse2@gmail.com> TCS 
+[page 1] TEXT: We regret to inform you that the previously scheduled test could not be conducted as planned due to unforeseen circumstances. We sincerely a
+[page 1] TEXT: User ID : CT20264981853 User Password : TAGP26014739 Candidate DOB : 30/Jun/2006 Examination Venue & Address : Greenfields, Vaddeswaram, Tad
+[page 1] TEXT: a) Printed copy of this email along with complete mail received from email and received To (Note-A copy of the physical / hard copy of this 
+[page 1] TEXT: You will NOT be permitted to appear for the Exam if you fail to carry the Printout of this Email and the mandatory Government issued Photo I
+
+######## sample3.pdf (2-column) ########
+[page 1] TABLE: Batch Number:C2R-20
+Project Usecase No:AIML-59 , Project Title: Document Structure
+Analysis for Efficient and Reliable
+Information Retrieval
+[page 1] TEXT: Department of Computer Science and Engineering (CSE-2) A.Y:2026-27 IV B.Tech- Odd Semester Y23 Batch Capstone Project – I Abstract Proforma 
+
+######## sample_paper.pdf (2-column) ########
+[page 1] FORMULA: Accuracy = (TP + TN) / (TP + TN + FP + FN)
+[page 1] FORMULA: P = TP / (TP + FP)
+[page 1] FORMULA: R = TP / (TP + FN)
+[page 1] FORMULA: F1 = 2 * P * R / (P + R)
+[page 1] TEXT: Plant Disease Detection Using Deep Learning: A Comparative 1. Introduction Crop diseases reduce agricultural yield by nearly twenty percent 
+[page 1] TEXT: The dataset contains 12,000 labelled leaf images collected from farms across Andhra Pradesh. Images are divided into 70 percent training, 15
+[page 1] TEXT: All models were trained for fifty epochs using the Adam optimizer with a learning rate of 0.001 and a batch size of 32.
+[page 2] TABLE: Disease , Precision , Recall | Leaf blight , 0.97 , 0.95 | Rust , 0.92 , 0.90
+[page 2] TABLE: Model , Accuracy , F1 | ResNet50 , 94.8 , 0.93 | VGG16 , 91.2 , 0.90
+[page 2] TABLE: Model , Train time (min) , Memory (MB) | ResNet50 , 62 , 98 | VGG16 , 95 , 528
+[page 2] TEXT: 5. Results Table 1 shows the test accuracy of the three networks. ResNet50 achieved the highest accuracy while MobileNet was the fastest mod
+[page 2] TEXT: Mildew was the hardest class because its symptoms look similar to early stage rust on young leaves.
+[page 3] FORMULA: FPS = N / T
+[page 3] TEXT: 7. Discussion Although ResNet50 gave the best accuracy, MobileNet is more suitable for smartphones because it needs only 14 MB of memory. Fa
+[page 3] TEXT: This study showed that deep learning can detect leaf diseases with accuracy above ninety percent. Future work will extend the dataset to inc

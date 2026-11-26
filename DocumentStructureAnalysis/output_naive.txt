@@ -1,0 +1,218 @@
+
+=== sample.pdf | PAGE 1 ===
+6/16/26, 6:52 PM 
+Gmail - TCS NOT for Priority Institutes Batch 2027118th June 2026 
+M Gmail 
+Gayatri Battagiri <2300032635cse2@gmail.com> 
+TCS NQT for Priority Institutes Batch 2027118th June 2026 
+careers@mail.digialm.com <careers@mail.digialm.com> 
+To: 2300032635cse2@gmail.com 
+Dear Gayatri Battagiri, 
+Sat, Jun 13, 2026 at 6:37 PM 
+We regret to inform you that the previously scheduled test could not be conducted as planned due to unforeseen 
+circumstances. 
+We sincerely apologize for any inconvenience caused and appreciate your understanding. 
+This is in reference to the TCS NQT for Priority Institutes Batch 2027 Exam, this is to inform you that online assessment 
+would be held on Thursday , June 18th 2026. 
+The credentials and the exam details are as follows : 
+User ID : CT20264981853 
+User Password : TAGP26014739 
+Candidate DOB : 30/Jun/2006 
+Examination Venue & Address : Greenfields, Vaddeswaram, Tadepally 522 502 
+Reporting Time : 7:30 AM 
+Gate Closure Time : 8:30 AM 
+Exam Time : 9:00 AM- 12: 11 PM 
+Instructions To Be Strictly Followed: 
+1) Please ensure you carry the following documents with you to the Test Center, on the day of exam: 
+a) Printed copy of this email along with complete mail received from email and received To (Note-A copy of the physical 
+/ hard copy of this email is mandatory for admission into the examination venue). 
+b) 
+Original Government issued Photo Identity proof for verification, such as Aadhaar Card/ Driving License/ Passport/ 
+Voter ID / PAN Card only (NO digital copy). 
+c) 
+ID card with incomplete Date of Birth (DOB) details will not be considered valid (Note: The ID card must have the 
+complete DOB details, including date, month, and year mentioned). 
+d) College ID card will not be considered as a valid ID proof. 
+2) 
+Report to the test centre well before the gate closure time, otherwise entry will NOT be permitted. 
+3) 
+Prohibited Items: No personal items, including jewellery, bags, mobile phones, or any other electronic gadgets such 
+as Smart watches, Digital Key, calculators, and other electronic devices are strictly prohibited in the examination hall. 
+There is no facility for safekeeping of your personal belongings outside the test hall and we are not responsible for any 
+loss / theft. 
+Only original Photo ID Card and printout of this email copy will be allowed inside the test hall. 
+4) Unfair Means: Adoption of any unfair means in the examination hall will result in disqualification from the TCS 
+selection process. 
+5) 
+Friends and relatives accompanying the candidate will NOT be allowed inside the examination venue. 
+You will NOT be permitted to appear for the Exam if you fail to carry the Printout of this Email and the mandatory 
+Government issued Photo Identity Card. 
+Wishing you success! 
+This is system generated mail, please do not reply to it. 
+***************************************************************************** 
+https://mail.google.com/mail/u/0/?ik=d45495c3c8&view=pt&search=all&permmsgid=msg-f:1867887268695753765&simpl=msg-f:1867887268695753765 
+1/1 
+
+=== sample3.pdf | PAGE 1 ===
+ 
+Department of Computer Science and Engineering (CSE-2) 
+                  A.Y:2026-27 
+ 
+IV B.Tech- Odd Semester 
+Y23 Batch 
+Capstone Project – I Abstract Proforma 
+             Date:                                                                                                              
+ 
+Batch Number:C2R-20 
+ 
+Project Usecase No:AIML-59 
+Project Title: Document Structure 
+Analysis for Efficient and Reliable 
+Information Retrieval 
+Guide Name: 
+Ms. Bobba Sahithi 
+ Guide emp. Id:8820 
+Project Abstract: 
+ 
+Most real-world documents used in AI systems — research papers, reports, manuals — exist as PDFs. But
+extracting them accurately remains a major challenge. In documents with multiple columns, text is often 
+read out of order. Tables collapse into meaningless strings of text, losing their row-column structure. 
+Formulas are frequently dropped entirely, without any warning. These errors happen silently, at the very 
+first step of the pipeline, and quietly affect every AI-generated answer built on top of them. 
+This project builds a document-ingestion pipeline that fixes this problem. It recovers the correct reading 
+order from complex, multi-column PDFs, and extracts tables and formulas as separate structured elements 
+instead of flattening them into plain text — using simple, practical tools like PyMuPDF, pdfplumber, 
+Camelot, and Nougat. As a unique addition, the system also tracks the exact page each extracted element 
+came from and attaches a confidence score to it, so downstream systems know how much to trust each
+piece of information. 
+To prove the pipeline actually works — not just looks cleaner — its effectiveness is measured through real 
+downstream retrieval accuracy, using Sentence-Transformers and FAISS in a RAG-based retrieval system. 
+The complete pipeline is tested across diverse document types to ensure it performs reliably under real-
+world conditions, not just in ideal cases. 
+ 
+To be filled by the Guide: 
+Student IDs: 
+Attendance 
+Student’s Understanding Level on Project 
+(V. Good: 10-8M Good: 7-6M    Average: 5-4M  Poor: 3-0M) 
+2300032635 
+ 
+2300033305 
+ 
+2300031402 
+ 
+ 
+ 
+Guide Remarks:                                                                                  
+                                                                  Guide Signature:
+ 
+
+=== sample_paper.pdf | PAGE 1 ===
+Plant Disease Detection Using Deep Learning: A Comparative
+Study
+A. Student, B. Student, C. Student
+Department of Computer Science and Engineering
+1. Introduction
+Crop diseases reduce agricultural yield by nearly twenty
+percent every year in India. Farmers in Guntur district
+often identify leaf diseases late, which causes heavy
+losses to chilli and cotton crops.
+This paper compares three convolutional neural
+networks for automatic leaf disease classification using
+photographs taken in real field conditions.
+2. Dataset
+The dataset contains 12,000 labelled leaf images
+collected from farms across Andhra Pradesh. Images
+are divided into 70 percent training, 15 percent
+validation and 15 percent testing.
+3. Evaluation Metrics
+Model quality is measured using accuracy, precision,
+recall and the F1 score, defined as follows.
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+P = TP / (TP + FP)
+R = TP / (TP + FN)
+F1 = 2 * P * R / (P + R)
+Here TP means true positives, TN true negatives, FP
+false positives and FN false negatives.
+4. Training Setup
+All models were trained for fifty epochs using the Adam
+optimizer with a learning rate of 0.001 and a batch size
+of 32.
+
+=== sample_paper.pdf | PAGE 2 ===
+5. Results
+Table 1 shows the test accuracy of the three networks.
+ResNet50 achieved the highest accuracy while
+MobileNet was the fastest model.
+Model
+Accuracy
+F1
+ResNet50
+94.8
+0.93
+VGG16
+91.2
+0.90
+MobileNet
+89.6
+0.88
+Table 1: Classification performance (%)
+Table 2 reports the training cost of each model. VGG16
+needed the longest training time and the most memory.
+Model
+Train time (min)
+Memory (MB)
+ResNet50
+62
+98
+VGG16
+95
+528
+MobileNet
+28
+14
+Table 2: Training cost
+6. Per-class Analysis
+Table 3 lists the F1 score for each disease class using
+the best model. Leaf blight was detected most reliably.
+Disease
+Precision
+Recall
+Leaf blight
+0.97
+0.95
+Rust
+0.92
+0.90
+Mildew
+0.88
+0.85
+Healthy
+0.96
+0.98
+Table 3: Per-class precision and recall
+Mildew was the hardest class because its symptoms
+look similar to early stage rust on young leaves.
+
+=== sample_paper.pdf | PAGE 3 ===
+7. Discussion
+Although ResNet50 gave the best accuracy, MobileNet
+is more suitable for smartphones because it needs only
+14 MB of memory. Farmers can therefore run the model
+offline in the field without an internet connection.
+The inference speed can be estimated using the relation
+below, where N is the number of images and T is the
+total time in seconds.
+FPS = N / T
+MobileNet processed about 45 images per second on a
+mid-range phone.
+8. Conclusion
+This study showed that deep learning can detect leaf
+diseases with accuracy above ninety percent. Future
+work will extend the dataset to include pest damage and
+nutrient deficiency symptoms.
+References
+[1] K. He et al., Deep Residual Learning for Image
+Recognition, 2016.
+[2] A. Howard et al., MobileNets: Efficient Convolutional
+Networks, 2017.

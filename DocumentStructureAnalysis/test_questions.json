@@ -1,0 +1,104 @@
+[
+  {
+    "question": "Why could the previously scheduled test not be conducted as planned?",
+    "doc": "sample.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "TCS email for Priority Institutes Batch 2027",
+    "doc": "sample.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "What is the examination venue and address at Greenfields Vaddeswaram?",
+    "doc": "sample.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "What printed copy of the email must the candidate carry?",
+    "doc": "sample.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "What happens if the candidate fails to carry the printout and Government issued photo ID?",
+    "doc": "sample.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "What is the batch number and project usecase number?",
+    "doc": "sample3.pdf",
+    "correct_page": 1,
+    "type": "table"
+  },
+  {
+    "question": "What is the project title about document structure analysis?",
+    "doc": "sample3.pdf",
+    "correct_page": 1,
+    "type": "table"
+  },
+  {
+    "question": "Who is the guide and what is the guide employee id?",
+    "doc": "sample3.pdf",
+    "correct_page": 1,
+    "type": "table"
+  },
+  {
+    "question": "Which department, academic year and semester is the capstone abstract proforma for?",
+    "doc": "sample3.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "Which tools are used to extract tables and formulas from PDFs?",
+    "doc": "sample3.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "Which libraries are used for the RAG based retrieval system?",
+    "doc": "sample3.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "Which optimizer and learning rate were used for training the models?",
+    "doc": "sample_paper.pdf",
+    "correct_page": 1,
+    "type": "text"
+  },
+  {
+    "question": "Why is MobileNet suitable for smartphones?",
+    "doc": "sample_paper.pdf",
+    "correct_page": 3,
+    "type": "text"
+  },
+  {
+    "question": "What is the accuracy and F1 of ResNet50, VGG16 and MobileNet?",
+    "doc": "sample_paper.pdf",
+    "correct_page": 2,
+    "type": "table"
+  },
+  {
+    "question": "Training time and memory in MB for ResNet50 and VGG16",
+    "doc": "sample_paper.pdf",
+    "correct_page": 2,
+    "type": "table"
+  },
+  {
+    "question": "F1 = 2 * P * R / (P + R)",
+    "doc": "sample_paper.pdf",
+    "correct_page": 1,
+    "type": "formula"
+  },
+  {
+    "question": "FPS = N / T inference speed formula",
+    "doc": "sample_paper.pdf",
+    "correct_page": 3,
+    "type": "formula"
+  }
+]

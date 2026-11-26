@@ -1,0 +1,33 @@
+{
+  "questions": 17,
+  "naive": {
+    "recall@1": 100.0,
+    "recall@3": 100.0,
+    "by_type": {
+      "text": 100.0,
+      "table": 100.0,
+      "formula": 100.0
+    },
+    "by_doc": {
+      "sample.pdf": 100.0,
+      "sample3.pdf": 100.0,
+      "sample_paper.pdf": 100.0
+    },
+    "missed_questions": []
+  },
+  "structured": {
+    "recall@1": 100.0,
+    "recall@3": 100.0,
+    "by_type": {
+      "text": 100.0,
+      "table": 100.0,
+      "formula": 100.0
+    },
+    "by_doc": {
+      "sample.pdf": 100.0,
+      "sample3.pdf": 100.0,
+      "sample_paper.pdf": 100.0
+    },
+    "missed_questions": []
+  }
+}

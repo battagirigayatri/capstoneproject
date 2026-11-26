@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document Understanding and RAG</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            margin: 40px;
+            color: #222;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        h1, h2 {
+            color: #243b64;
+        }
+
+        input, button {
+            padding: 12px;
+            margin: 8px 0;
+        }
+
+        button {
+            background: #2456a6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .message {
+            background: #e8f3e8;
+            padding: 12px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .counts {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+        }
+
+        .count-card {
+            background: #eef3fa;
+            padding: 18px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .result {
+            background: #f5f7fb;
+            padding: 18px;
+            margin-top: 15px;
+            border-left: 4px solid #2456a6;
+            overflow-wrap: anywhere;
+        }
+
+        .content {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <h1>Document Understanding and RAG</h1>
+
+    <h2>1. Upload and Process PDF</h2>
+
+    <form action="/process" method="POST"
+          enctype="multipart/form-data">
+
+        <input type="file" name="pdf" accept=".pdf" required>
+
+        <br>
+
+        <button type="submit">Process Document</button>
+    </form>
+
+    {% if message %}
+        <div class="message">{{ message }}</div>
+    {% endif %}
+
+    {% if filename %}
+        <p><b>Document:</b> {{ filename }}</p>
+    {% endif %}
+
+    {% if counts %}
+        <h2>2. Extraction Results</h2>
+
+        <div class="counts">
+
+            <div class="count-card">
+                <h3>{{ counts.pages }}</h3>
+                <p>Pages</p>
+            </div>
+
+            <div class="count-card">
+                <h3>{{ counts.text }}</h3>
+                <p>Text Elements</p>
+            </div>
+
+            <div class="count-card">
+                <h3>{{ counts.tables }}</h3>
+                <p>Tables</p>
+            </div>
+
+            <div class="count-card">
+                <h3>{{ counts.formulas }}</h3>
+                <p>Formulas</p>
+            </div>
+
+            <div class="count-card">
+                <h3>{{ counts.total }}</h3>
+                <p>Total Elements</p>
+            </div>
+
+            <div class="count-card">
+                <h3>{{ counts.layout }}</h3>
+                <p>Page Layout</p>
+            </div>
+
+        </div>
+
+        <h2>3. Ask a Question</h2>
+
+        <form action="/query" method="POST">
+
+            <input
+                type="text"
+                name="question"
+                placeholder="Enter your question..."
+                value="{{ question }}"
+                style="width: 75%;"
+                required
+            >
+
+            <button type="submit">Search</button>
+        </form>
+    {% endif %}
+
+    {% if results %}
+        <h2>4. Retrieved Results</h2>
+
+        {% for result in results %}
+            <div class="result">
+
+                <h3>Result {{ loop.index }}</h3>
+
+                <p><b>Retrieved Content:</b></p>
+
+                <div class="content">{{ result.content }}</div>
+
+                <p>
+                    <b>Source Page:</b>
+                    {{ result.source_page }}
+                </p>
+
+                <p>
+                    <b>Element Type:</b>
+                    {{ result.element_type }}
+                </p>
+
+                <p>
+                    <b>Confidence Score:</b>
+                    {{ result.confidence_score
+                       if result.confidence_score is not none
+                       else "Not available" }}
+                </p>
+
+                <p>
+                    <b>Relevance Score:</b>
+                    {{ result.relevance_score }}
+                </p>
+
+            </div>
+        {% endfor %}
+    {% endif %}
+
+</div>
+</body>
+</html>

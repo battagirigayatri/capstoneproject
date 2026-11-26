@@ -1,0 +1,110 @@
+
+=== sample_paper.pdf | PAGE 1 ===
+Plant Disease Detection Using Deep Learning: A Comparative
+Study
+A. Student, B. Student, C. Student
+Department of Computer Science and Engineering
+1. Introduction
+Crop diseases reduce agricultural yield by nearly twenty
+percent every year in India. Farmers in Guntur district
+often identify leaf diseases late, which causes heavy
+losses to chilli and cotton crops.
+This paper compares three convolutional neural
+networks for automatic leaf disease classification using
+photographs taken in real field conditions.
+2. Dataset
+The dataset contains 12,000 labelled leaf images
+collected from farms across Andhra Pradesh. Images
+are divided into 70 percent training, 15 percent
+validation and 15 percent testing.
+3. Evaluation Metrics
+Model quality is measured using accuracy, precision,
+recall and the F1 score, defined as follows.
+Accuracy = (TP + TN) / (TP + TN + FP + FN)
+P = TP / (TP + FP)
+R = TP / (TP + FN)
+F1 = 2 * P * R / (P + R)
+Here TP means true positives, TN true negatives, FP
+false positives and FN false negatives.
+4. Training Setup
+All models were trained for fifty epochs using the Adam
+optimizer with a learning rate of 0.001 and a batch size
+of 32.
+
+=== sample_paper.pdf | PAGE 2 ===
+5. Results
+Table 1 shows the test accuracy of the three networks.
+ResNet50 achieved the highest accuracy while
+MobileNet was the fastest model.
+Model
+Accuracy
+F1
+ResNet50
+94.8
+0.93
+VGG16
+91.2
+0.90
+MobileNet
+89.6
+0.88
+Table 1: Classification performance (%)
+Table 2 reports the training cost of each model. VGG16
+needed the longest training time and the most memory.
+Model
+Train time (min)
+Memory (MB)
+ResNet50
+62
+98
+VGG16
+95
+528
+MobileNet
+28
+14
+Table 2: Training cost
+6. Per-class Analysis
+Table 3 lists the F1 score for each disease class using
+the best model. Leaf blight was detected most reliably.
+Disease
+Precision
+Recall
+Leaf blight
+0.97
+0.95
+Rust
+0.92
+0.90
+Mildew
+0.88
+0.85
+Healthy
+0.96
+0.98
+Table 3: Per-class precision and recall
+Mildew was the hardest class because its symptoms
+look similar to early stage rust on young leaves.
+
+=== sample_paper.pdf | PAGE 3 ===
+7. Discussion
+Although ResNet50 gave the best accuracy, MobileNet
+is more suitable for smartphones because it needs only
+14 MB of memory. Farmers can therefore run the model
+offline in the field without an internet connection.
+The inference speed can be estimated using the relation
+below, where N is the number of images and T is the
+total time in seconds.
+FPS = N / T
+MobileNet processed about 45 images per second on a
+mid-range phone.
+8. Conclusion
+This study showed that deep learning can detect leaf
+diseases with accuracy above ninety percent. Future
+work will extend the dataset to include pest damage and
+nutrient deficiency symptoms.
+References
+[1] K. He et al., Deep Residual Learning for Image
+Recognition, 2016.
+[2] A. Howard et al., MobileNets: Efficient Convolutional
+Networks, 2017.

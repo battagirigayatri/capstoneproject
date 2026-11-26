@@ -1,0 +1,190 @@
+[
+  {
+    "content": "Accuracy = (TP + TN) / (TP + TN + FP + FN)",
+    "source_page": 1,
+    "element_type": "formula",
+    "confidence_score": 0.6,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "P = TP / (TP + FP)",
+    "source_page": 1,
+    "element_type": "formula",
+    "confidence_score": 0.6,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "R = TP / (TP + FN)",
+    "source_page": 1,
+    "element_type": "formula",
+    "confidence_score": 0.6,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "F1 = 2 * P * R / (P + R)",
+    "source_page": 1,
+    "element_type": "formula",
+    "confidence_score": 0.6,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "Plant Disease Detection Using Deep Learning: A Comparative 1. Introduction Crop diseases reduce agricultural yield by nearly twenty percent every year in India. Farmers in Guntur district often identify leaf diseases late, which causes heavy losses to chilli and cotton crops. This paper compares three convolutional neural networks for automatic leaf disease classification using photographs taken in real field conditions. 2. Dataset",
+    "source_page": 1,
+    "element_type": "text",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "The dataset contains 12,000 labelled leaf images collected from farms across Andhra Pradesh. Images are divided into 70 percent training, 15 percent validation and 15 percent testing. Study A. Student, B. Student, C. Student Department of Computer Science and Engineering 3. Evaluation Metrics Model quality is measured using accuracy, precision, recall and the F1 score, defined as follows. Here TP means true positives, TN true negatives, FP false positives and FN false negatives. 4. Training Setup",
+    "source_page": 1,
+    "element_type": "text",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "All models were trained for fifty epochs using the Adam optimizer with a learning rate of 0.001 and a batch size of 32.",
+    "source_page": 1,
+    "element_type": "text",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "Disease | Precision | Recall\nLeaf blight | 0.97 | 0.95\nRust | 0.92 | 0.90\nMildew | 0.88 | 0.85\nHealthy | 0.96 | 0.98",
+    "source_page": 2,
+    "element_type": "table",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": [
+      [
+        "Disease",
+        "Precision",
+        "Recall"
+      ],
+      [
+        "Leaf blight",
+        "0.97",
+        "0.95"
+      ],
+      [
+        "Rust",
+        "0.92",
+        "0.90"
+      ],
+      [
+        "Mildew",
+        "0.88",
+        "0.85"
+      ],
+      [
+        "Healthy",
+        "0.96",
+        "0.98"
+      ]
+    ]
+  },
+  {
+    "content": "Model | Accuracy | F1\nResNet50 | 94.8 | 0.93\nVGG16 | 91.2 | 0.90\nMobileNet | 89.6 | 0.88",
+    "source_page": 2,
+    "element_type": "table",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": [
+      [
+        "Model",
+        "Accuracy",
+        "F1"
+      ],
+      [
+        "ResNet50",
+        "94.8",
+        "0.93"
+      ],
+      [
+        "VGG16",
+        "91.2",
+        "0.90"
+      ],
+      [
+        "MobileNet",
+        "89.6",
+        "0.88"
+      ]
+    ]
+  },
+  {
+    "content": "Model | Train time (min) | Memory (MB)\nResNet50 | 62 | 98\nVGG16 | 95 | 528\nMobileNet | 28 | 14",
+    "source_page": 2,
+    "element_type": "table",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": [
+      [
+        "Model",
+        "Train time (min)",
+        "Memory (MB)"
+      ],
+      [
+        "ResNet50",
+        "62",
+        "98"
+      ],
+      [
+        "VGG16",
+        "95",
+        "528"
+      ],
+      [
+        "MobileNet",
+        "28",
+        "14"
+      ]
+    ]
+  },
+  {
+    "content": "5. Results Table 1 shows the test accuracy of the three networks. ResNet50 achieved the highest accuracy while MobileNet was the fastest model. Table 1: Classification performance (%) Table 2 reports the training cost of each model. VGG16 needed the longest training time and the most memory. Table 2: Training cost 6. Per-class Analysis Table 3 lists the F1 score for each disease class using the best model. Leaf blight was detected most reliably. Table 3: Per-class precision and recall",
+    "source_page": 2,
+    "element_type": "text",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "Mildew was the hardest class because its symptoms look similar to early stage rust on young leaves.",
+    "source_page": 2,
+    "element_type": "text",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "FPS = N / T",
+    "source_page": 3,
+    "element_type": "formula",
+    "confidence_score": 0.6,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "7. Discussion Although ResNet50 gave the best accuracy, MobileNet is more suitable for smartphones because it needs only 14 MB of memory. Farmers can therefore run the model offline in the field without an internet connection. The inference speed can be estimated using the relation below, where N is the number of images and T is the total time in seconds. MobileNet processed about 45 images per second on a mid-range phone. 8. Conclusion",
+    "source_page": 3,
+    "element_type": "text",
+    "confidence_score": 1.0,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  },
+  {
+    "content": "This study showed that deep learning can detect leaf diseases with accuracy above ninety percent. Future work will extend the dataset to include pest damage and nutrient deficiency symptoms. References [1] K. He et al., Deep Residual Learning for Image Recognition, 2016. [2] A. Howard et al., MobileNets: Efficient Convolutional Networks, 2017.",
+    "source_page": 3,
+    "element_type": "text",
+    "confidence_score": 0.97,
+    "doc": "sample_paper.pdf",
+    "rows": null
+  }
+]
